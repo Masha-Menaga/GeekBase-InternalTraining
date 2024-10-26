@@ -1,12 +1,13 @@
 import React from "react";
-import Button from "./Button";
 
-const Counter = (val, add, sub) => {
+const Counter = ({ children, data }) => {
   return (
     <div>
-      <h1>Count: {val.data} </h1>
-      <Button text={add} />
-      <Button text={sub} />
+      <h1>Count: {data} </h1>
+      {children}
+      {/* //Props Destructuring Method
+      <Button text="Increment" func={add} />
+      <Button text="Decrement" func={sub} disable={data < 1 ? true : false} />  */}
     </div>
   );
 };
