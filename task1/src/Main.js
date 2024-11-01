@@ -8,7 +8,7 @@ import Footer from "./Footer";
 const Main = () => {
   const { color } = useContext(ThemeContext);
   return (
-    <div className={`container ${!color ? "dark" : "light"}`}>
+    <div className={`container ${!color ? "light" : "dark"}`}>
       <Header />
       <Body />
       <Footer />
