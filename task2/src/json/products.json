@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Earbuds",
+    "description": "High-quality wireless earbuds with noise cancellation.",
+    "price": 4980,
+    "stock": 10,
+    "imageUrl": "https://yamaha.ndcdn.in/media/catalog/product/cache/9e0f31af0cdc06df956748b13dabad87/t/w/tw-e3b_black_a.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "description": "Latest model with high-resolution display and long-lasting battery.",
+    "price": 66200,
+    "stock": 5,
+    "imageUrl": "https://cdn.thewirecutter.com/wp-content/media/2024/05/smartphone-2048px-1013.jpg?auto=webp&quality=75&width=1024"
+  },
+  {
+    "id": 3,
+    "name": "Smartwatch",
+    "description": "Smartwatch with heart rate monitoring and GPS tracking.",
+    "price": 16599,
+    "stock": 7,
+    "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/611KpNJPr4L._AC_UL600_SR600,600_.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Gaming Laptop",
+    "description": "High-performance laptop for gaming with 16GB RAM and 512GB SSD.",
+    "price": 107999,
+    "stock": 3,
+    "imageUrl": "https://images.jdmagicbox.com/quickquotes/images_main/dell-laptops-04-01-2024-24-272725655-y40fuckz.png"
+  },
+  {
+    "id": 5,
+    "name": "4K TV",
+    "description": "55-inch 4K Ultra HD television with HDR support.",
+    "price": 41499,
+    "stock": 4,
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/in/ua43cue70aklxl/gallery/in-crystal-uhd-cu7000-471711-ua43cue70aklxl-537527812?$650_519_PNG$"
+  },
+  {
+    "id": 6,
+    "name": "Bluetooth Speaker",
+    "description": "Portable Bluetooth speaker with powerful sound and long battery life.",
+    "price": 4149,
+    "stock": 15,
+    "imageUrl": "https://images-cdn.ubuy.co.in/66816af702c2745e9c5bc648-bluetooth-speaker-60w-80w-max-ipx7.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Tablet",
+    "description": "Lightweight tablet with 10-inch display and 64GB storage.",
+    "price": 24899,
+    "stock": 8,
+    "imageUrl": "https://cdn.thewirecutter.com/wp-content/media/2024/06/besttablets-2048px-9875.jpg?auto=webp&quality=75&width=480&dpr=2"
+  },
+  {
+    "id": 8,
+    "name": "Fitness Tracker",
+    "description": "Fitness tracker with step counter, calorie tracker, and sleep monitor.",
+    "price": 8299,
+    "stock": 20,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCCaKDvYkF_6uNOZJcijYEIrXuQw3t24WB7Q&s"
+  },
+  {
+    "id": 9,
+    "name": "Digital Camera",
+    "description": "Compact digital camera with 20MP resolution and 4K video recording.",
+    "price": 33199,
+    "stock": 6,
+    "imageUrl": "https://in.canon/media/image/2018/11/19/b639ce271d2b450c974112ee3a7246ba_PowerShot-SX70-HS-Front-Slant.png"
+  },
+  {
+    "id": 10,
+    "name": "Drone",
+    "description": "Quadcopter drone with 1080p camera and 20 minutes flight time.",
+    "price": 12449,
+    "stock": 4,
+    "imageUrl": "https://www.xboom.in/wp-content/uploads/2023/09/2-22.png"
+  },
+  {
+    "id": 11,
+    "name": "VR Headset",
+    "description": "Virtual reality headset with immersive 3D display and head tracking.",
+    "price": 24899,
+    "stock": 2,
+    "imageUrl": "https://m.media-amazon.com/images/I/51nicgmwwcL.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Electric Kettle",
+    "description": "Fast-boiling electric kettle with 1.7L capacity and auto shut-off.",
+    "price": 2489,
+    "stock": 10,
+    "imageUrl": "https://m.media-amazon.com/images/I/717V4glGOsL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Air Purifier",
+    "description": "Compact air purifier with HEPA filter for cleaner air.",
+    "price": 7489,
+    "stock": 12,
+    "imageUrl": "https://m.media-amazon.com/images/I/511dQzoBD3L._SX300_SY300_QL70_FMwebp_.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Blender",
+    "description": "High-power blender for smoothies, soups, and sauces.",
+    "price": 4979,
+    "stock": 15,
+    "imageUrl": "https://m.media-amazon.com/images/I/31OatBDeXkL._SX300_SY300_QL70_FMwebp_.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Coffee Maker",
+    "description": "Single-serve coffee maker compatible with coffee pods.",
+    "price": 3319,
+    "stock": 9,
+    "imageUrl": "https://glenindia.com/cdn/shop/products/1_59f04f79-cb58-4b08-9547-07702fcc49a1_902x902.jpg?v=1672308229"
+  },
+  {
+    "id": 16,
+    "name": "Vacuum Cleaner",
+    "description": "Lightweight vacuum cleaner with powerful suction for carpets and floors.",
+    "price": 8299,
+    "stock": 5,
+    "imageUrl": "https://cdn.staticans.com/image/tr:e-sharpen-01,h-500,w-500,cm-pad_resize/data/philips/14-sep-2021/8710103855101.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Smart Bulb",
+    "description": "Color-changing LED smart bulb with remote control.",
+    "price": 1244,
+    "stock": 25,
+    "imageUrl": "https://www.crompton.co.in/cdn/shop/files/bulb1.png?v=1692612581&width=823"
+  },
+  {
+    "id": 18,
+    "name": "Laptop Stand",
+    "description": "Adjustable laptop stand for ergonomic viewing.",
+    "price": 1659,
+    "stock": 30,
+    "imageUrl": "https://alogic.in/cdn/shop/products/media-40523_1.jpg?v=1688017832&width=500"
+  },
+  {
+    "id": 19,
+    "name": "Noise Cancelling Headphones",
+    "description": "Over-ear headphones with active noise cancellation.",
+    "price": 16599,
+    "stock": 6,
+    "imageUrl": "https://m.media-amazon.com/images/I/41tQv0l93fL._SX300_SY300_QL70_FMwebp_.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Wireless Charger",
+    "description": "Fast wireless charger compatible with Qi-enabled devices.",
+    "price": 2074,
+    "stock": 18,
+    "imageUrl": "https://m.media-amazon.com/images/I/71O59aVg-cL.jpg"
+  }
+]
