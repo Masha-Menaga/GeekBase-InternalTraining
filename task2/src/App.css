@@ -8,7 +8,7 @@ nav {
   top: 0;
   width: 100%;
   height: auto;
-  z-index: 999;
+  z-index: 1;
   text-align: center;
 }
 .list {
@@ -46,6 +46,7 @@ nav {
 .container.light {
   background-color: #fff;
   color: #000;
+  height: auto;
 }
 .container.dark {
   background-color: #333;
@@ -135,4 +136,15 @@ p {
   top: 5px;
   width: 40px;
   height: 40px;
+}
+.add {
+  color: #fff;
+  position: absolute;
+  top: 3px;
+  right: 102px;
+  font-size: smaller;
+  font-weight: bold;
+}
+.cartItem {
+  color: #000;
 }

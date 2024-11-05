@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import products from "../json/products.json";
-import { Link } from "react-router-dom";
+import ThemeContext from "../context/ThemeContext";
 
 const Body = () => {
+  const { increment } = useContext(ThemeContext);
+
   return (
     <>
       <ul className="display">
@@ -17,9 +19,10 @@ const Body = () => {
             </p>
             <p>{product.description}</p>
             <p> &#8377; {product.price}</p>
-            <Link to="/cartpage">
-              <button className="cart">Add to cart</button>
-            </Link>
+
+            <button onClick={() => increment(product)} className="cart">
+              Add to cart
+            </button>
           </li>
         ))}
       </ul>
