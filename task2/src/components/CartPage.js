@@ -11,8 +11,11 @@ const CartPage = () => {
   const deleteRef = useRef();
   const [deleteId, setDeleteId] = useState(null);
 
-  function handleback() {
+  function handleBack() {
     navigate("/");
+  }
+  function handleClear() {
+    setCart([]);
   }
   function handleDelete(id) {
     setDeleteId(id);
@@ -34,7 +37,8 @@ const CartPage = () => {
   return (
     <div className={`container ${!color ? "light" : "dark"}`}>
       <div className="cartContainer">
-        <button onClick={handleback}>Back</button>
+        <button onClick={handleBack}>Back</button>
+        <button onClick={handleClear}>Clear Cart</button>
       </div>
 
       <h3>Your Cart [{count} items]</h3>
