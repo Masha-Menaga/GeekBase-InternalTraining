@@ -90,7 +90,7 @@ const CartPage = () => {
               <td></td>
               <td></td>
               <td>
-                <b>Total - </b>
+                <b>TOTAL</b>
               </td>
               <td>
                 <b>Quantity : {totalQuantity}</b>
