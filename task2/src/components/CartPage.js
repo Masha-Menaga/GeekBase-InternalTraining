@@ -87,11 +87,11 @@ const CartPage = () => {
               </tr>
             ))}
             <tr>
+              <td></td>
+              <td></td>
               <td>
-                <b>Total</b>
+                <b>Total - </b>
               </td>
-              <td></td>
-              <td></td>
               <td>
                 <b>Quantity : {totalQuantity}</b>
               </td>
