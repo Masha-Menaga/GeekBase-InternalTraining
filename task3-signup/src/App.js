@@ -4,6 +4,7 @@ import Login from "./components/Login";
 import Signup from "./components/Signup";
 import { LoginProvider } from "./context/LoginContext";
 import Home from "./components/Home";
+import Error from "./components/Error";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
               </LoginProvider>
             }
           />
+          <Route path="*" element={<Error />} />
           <Route path="/home" element={<Home />} />
         </Routes>
       </BrowserRouter>

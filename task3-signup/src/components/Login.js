@@ -4,10 +4,13 @@ import { Link } from "react-router-dom";
 import LoginContext from "../context/LoginContext";
 
 const Login = ({ children }) => {
-  const { setName, login, match, setPassword } = useContext(LoginContext);
+  const { setName, login, match, setPassword, close, closeRef } =
+    useContext(LoginContext);
   return (
-    <div className="container">
-      <p className="close">&#10006;</p>
+    <div className="container" ref={closeRef}>
+      <p className="close" onClick={close}>
+        &#10006;
+      </p>
       <p>User Name :</p>
       <input
         type="text"

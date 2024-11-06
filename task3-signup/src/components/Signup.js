@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import LoginContext from "../context/LoginContext";
 
 const Signup = ({ children }) => {
-  const { setPass, setCpass, match, signup, setUname } =
+  const { setPass, setCpass, match, signup, setUname, close } =
     useContext(LoginContext);
   return (
     <div className="container">
-      <p className="close">&#10006;</p>
+      <p className="close" onClick={close}>
+        &#10006;
+      </p>
       <p>User Name :</p>
       <input
         type="text"

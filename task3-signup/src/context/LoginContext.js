@@ -11,6 +11,7 @@ export const LoginProvider = ({ children }) => {
   const [cpass, setCpass] = useState(" ");
   const [match, setMatch] = useState("");
   const navigate = useNavigate();
+
   function signup() {
     if (pass === cpass) {
       navigate("/");
@@ -24,6 +25,9 @@ export const LoginProvider = ({ children }) => {
     } else {
       setMatch("UserName / Password Mismatch");
     }
+  }
+  function close() {
+    navigate("*");
   }
   return (
     <LoginContext.Provider
@@ -41,6 +45,7 @@ export const LoginProvider = ({ children }) => {
         password,
         setPassword,
         login,
+        close,
       }}
     >
       {children}
