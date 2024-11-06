@@ -1,0 +1,23 @@
+.list {
+  line-height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+li {
+  width: 150px;
+  height: 150px;
+
+  border: 1px solid #000;
+  border-radius: 8px;
+  list-style-type: none;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px;
+  text-align: center;
+  padding: 10px;
+}
+li:hover {
+  zoom: 120%;
+}
