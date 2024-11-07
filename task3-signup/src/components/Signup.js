@@ -5,11 +5,13 @@ import LoginContext from "../context/LoginContext";
 const Signup = ({ children }) => {
   const { setPass, setCpass, match, signup, setUname, close } =
     useContext(LoginContext);
+
   return (
     <div className="container">
       <p className="close" onClick={close}>
         &#10006;
       </p>
+
       <p>User Name :</p>
       <input
         type="text"
@@ -18,6 +20,7 @@ const Signup = ({ children }) => {
         }}
         placeholder="Enter Name / Email id"
       />
+
       <p>Password : </p>
       <input
         type="password"
@@ -35,6 +38,7 @@ const Signup = ({ children }) => {
         }}
         placeholder="Enter Password Again"
       />
+
       <p className="password">{match}</p>
 
       <button onClick={signup}>Signup</button>

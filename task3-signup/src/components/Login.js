@@ -3,11 +3,12 @@ import "./Login.css";
 import { Link } from "react-router-dom";
 import LoginContext from "../context/LoginContext";
 
-const Login = ({ children }) => {
-  const { setName, login, match, setPassword, close, closeRef } =
+const Login = () => {
+  const { setName, login, match, setPassword, close } =
     useContext(LoginContext);
+
   return (
-    <div className="container" ref={closeRef}>
+    <div className="container">
       <p className="close" onClick={close}>
         &#10006;
       </p>
@@ -19,6 +20,7 @@ const Login = ({ children }) => {
         }}
         placeholder="Enter Name / Email id"
       />
+
       <p>Password : </p>
       <input
         type="password"
@@ -27,10 +29,12 @@ const Login = ({ children }) => {
         }}
         placeholder="Enter Password"
       />
+
       <p className="password">{match}</p>
+
       <button onClick={login}>Login</button>
       <p>
-        Not a Member <Link to="/Signup">SignUp</Link> Now
+        Not a Member <Link to="/signup">SignUp</Link> Now
       </p>
     </div>
   );

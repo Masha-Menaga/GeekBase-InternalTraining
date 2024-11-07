@@ -2,36 +2,42 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
-import { LoginProvider } from "./context/LoginContext";
+
 import Home from "./components/Home";
 import Error from "./components/Error";
+import Photo from "./components/Photo";
+import ProductiveRoute from "./components/ProductiveRoute";
+import { LoginProvider } from "./context/LoginContext";
 
 const App = () => {
   return (
-    <div>
-      <BrowserRouter>
+    <BrowserRouter>
+      <LoginProvider>
         <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+
           <Route
-            path="/"
+            path="/home"
             element={
-              <LoginProvider>
-                <Login />
-              </LoginProvider>
+              <ProductiveRoute>
+                <Home />
+              </ProductiveRoute>
             }
           />
           <Route
-            path="/signup"
+            path="/photo"
             element={
-              <LoginProvider>
-                <Signup />
-              </LoginProvider>
+              <ProductiveRoute>
+                <Photo />
+              </ProductiveRoute>
             }
           />
+
           <Route path="*" element={<Error />} />
-          <Route path="/home" element={<Home />} />
         </Routes>
-      </BrowserRouter>
-    </div>
+      </LoginProvider>
+    </BrowserRouter>
   );
 };
 

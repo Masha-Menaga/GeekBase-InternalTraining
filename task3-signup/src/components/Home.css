@@ -21,3 +21,21 @@ li {
 li:hover {
   zoom: 120%;
 }
+.logout {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 20px;
+}
+h1 {
+  text-align: center;
+  color: rgb(68, 125, 230);
+}
+.photo {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.photo-container {
+  text-align: center;
+}
