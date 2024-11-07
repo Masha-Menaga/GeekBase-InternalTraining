@@ -13,14 +13,18 @@ export const LoginProvider = ({ children }) => {
   const navigate = useNavigate();
 
   function signup() {
-    if (pass === cpass) {
+    if (!pass.trim() || !cpass.trim()) {
+      setMatch("Please Fill the details");
+    } else if (pass === cpass) {
       navigate("/");
     } else {
       setMatch("Password Mismatch");
     }
   }
   function login() {
-    if (password === cpass && name === uname) {
+    if (!password.trim() || !name.trim()) {
+      setMatch("Please Fill the details");
+    } else if (password === cpass && name === uname) {
       navigate("/home");
     } else {
       setMatch("UserName / Password Mismatch");
