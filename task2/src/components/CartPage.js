@@ -102,6 +102,7 @@ const CartPage = () => {
               <td>
                 <b>Price : &#8377; {totalPrice}</b>
               </td>
+              <td></td>
             </tr>
           </tbody>
         </table>
