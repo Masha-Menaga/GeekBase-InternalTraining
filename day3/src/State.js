@@ -36,7 +36,7 @@ const State = () => {
       <br />
       <button onClick={() => setBool(true)}>Submit</button>
       <h4>Details : </h4>
-      {}
+      { }
       {bool ? (
         <>
           <p>{name}</p>
